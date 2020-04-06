@@ -1,0 +1,379 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "How are you", "Whats up", "Hows going" ],
+      "responses": [ "HOOOOOOOOOOLA", "Hi" ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cool",
+      "patterns": [ "I love you" ],
+      "responses": [ "sorry, you are a good person" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q23",
+      "patterns": [ "How should I deal with his stuff", "How should I deal with her stuff" ],
+      "responses": [ "Just throw the stuff away." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q24",
+      "patterns": [ "I break up with my boyfriend", "I break up with my boy friend", "I break up with my girlfriend", "I break up with my girl friend", "I broke up with my girl friend", "I broke up with my girlfriend", "I broke up with my boy friend", "I broke up with my boyfriend" ],
+      "responses": [ "I am sorry to here that", "Oh, sorry to here that" ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [ "What's your name", "How should I call you", "How can I call you", "Whats your name", "What's your name" ],
+      "responses": [ "My name is Yuki" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q26",
+      "patterns": [ "I cannot sleep" ],
+      "responses": [ "vodka or tequila?" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q27",
+      "patterns": [ "I lost him", "I lost her" ],
+      "responses": [ "you will find a better one" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q28",
+      "patterns": [ "Do you have time" ],
+      "responses": [ "sure, whats up" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q29",
+      "patterns": [ "I am enough with him", "I am enough with her", "I'm enough with him", "I'm enough with her" ],
+      "responses": [ "sorry, you are a good person" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q30",
+      "patterns": [ "I hate him", "I hate her" ],
+      "responses": [ "chill bro" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q1",
+      "patterns": [ "I treat him so well" ],
+      "responses": [ "Rather than saying that others are making you miserable, it is better to say that you have not cultivated enough." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q2",
+      "patterns": [ "he loves me or not", "she loves me or not" ],
+      "responses": [ "There is not a specific standard of love or not. You just need to know, whether you want to build a relation or not." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q3",
+      "patterns": [ "what can i do to recover", "He doesn't love me anymore", "She doesn't love me anymore" ],
+      "responses": [ "Don't rush into some forceful actions, analyze your own reasons first, and then decide whether to recover." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q4",
+      "patterns": [ "I am lost in love,", "please help me" ],
+      "responses": [ "you can have love, but don¡¯t be attached, because separation is inevitable. Today ¡¯s attachment will cause tomorrow ¡¯s regret." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q5",
+      "patterns": [ "How do I know if he loves me", "How do I know if she loves me" ],
+      "responses": [ "Don't deliberately guess others' thoughts. If you don't have the correct judgment of wisdom and experience, there will usually be mistakes." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q6",
+      "patterns": [ "I feel lonely" ],
+      "responses": [ "Loneliness is because your heart is full of nothing but worries and sorrows. In fact, people who can imagine for others will never be lonely." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q7",
+      "patterns": [ "I feel so sad that I chose a sad marriage" ],
+      "responses": [ "Rather than complaining about hurting yourself, try to change." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q8",
+      "patterns": [ "Why are beautiful women so vain" ],
+      "responses": [ "Everyone is vanity, if you are not vanity, why not look for a beautiful woman" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q9",
+      "patterns": [ "Can we still be friends after breaking up" ],
+      "responses": [ "This question does not need to be deliberately thought" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q10",
+      "patterns": [ "Love is really hard" ],
+      "responses": [ "There is not something wrong with you if you are having a hard time making a relationship, love or marriage work" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q11",
+      "patterns": [ "Do You Have My Back" ],
+      "responses": [ "You should ask your partner this so you know they're someone you can count on." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q12",
+      "patterns": [ "What Do You Consider Cheating" ],
+      "responses": [ "Cheating means different things to different people." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q13",
+      "patterns": [ "How Much Honesty Is Needed" ],
+      "responses": [ "Honesty is obviously one of the most important things you can have in your relationship." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q14",
+      "patterns": [ "How I Changed Over The Past Few Years" ],
+      "responses": [ "Asking your partner about how they've grown or changed over the past few years can say a lot about the type of person they are." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q15",
+      "patterns": [ "Want Out Of This Relationship" ],
+      "responses": [ "If you're going to take your relationship to the next level, you need to be on the same page." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q16",
+      "patterns": [ "How Do I Deal With Difficult Situations" ],
+      "responses": [ "It's important to ask and/or observe how your partner copes with difficult emotions, relational situations, and conflict" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q17",
+      "patterns": [ "Why Didn't my Last Relationship Work Out" ],
+      "responses": [ "It's important to ask these questions because you can learn about your partner's ability to accept responsibility for their own mistakes, as well as how your partner has handled conflict in the past" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q18",
+      "patterns": [ "How to Deal With Your Feelings And Emotions" ],
+      "responses": [ "Your childhood is known to affect your relationships as an adult. " ],
+      "context_set": ""
+    },
+    {
+      "tag": "q19",
+      "patterns": [ "What Do You Personally Think Of Your Friend's Relationships" ],
+      "responses": [ "Asking your partner if they feel like their friend's relationships are happy can reveal their views on marriage" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q20",
+      "patterns": [ "Do You Feel That We Make Each Other Better People" ],
+      "responses": [ "Before taking your relationship to the next level, it¡¯s important to make sure that you both feel like you are better together and not better apart" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q21",
+      "patterns": [ "What Do You Value Most About Our Relationship" ],
+      "responses": [ "This question is helpful to ask because it allows our partner the space to acknowledge the strengths they see in the relationship, while also understanding what we might be able to tend to a little bit more" ],
+      "context_set": ""
+    },
+
+    {
+      "tag": "q31",
+      "patterns": [ "How can I keep the friendship with long distance friends" ],
+      "responses": [ "You can text her or him during your free time or send a text during important festival." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q32",
+      "patterns": [ "How often should I meet my friends" ],
+      "responses": [ "It depends on you. If you are not busy, you can meet multiple times" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q33",
+      "patterns": [ "How do you keep in touch with your long-distance friends" ],
+      "responses": [ "Like phone call, text, email or other contact way" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q34",
+      "patterns": [ "How can I make friends" ],
+      "responses": [ "There are multiple ways. You can go to party, or talk with your classmates, or join clubs to make friends" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q35",
+      "patterns": [ "Where is a good place to meet new friends" ],
+      "responses": [ "Listen to music or talk with your friends. Sometime your friend does not mean to make you sad" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q36",
+      "patterns": [ "How can I be a good friend" ],
+      "responses": [ "When you do something, you can think about your friends, and ask their opinions" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q37",
+      "patterns": [ "What things should friends never do" ],
+      "responses": [ "You must never betray your friedns" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q38",
+      "patterns": [ "What should I do when I received a friend¡¯s call, but I forget his name" ],
+      "responses": [ "Maybe just say something polite, then save her or his number as a friend with no name" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q39",
+      "patterns": [ "How can I keep the friendship with long distance friends" ],
+      "responses": [ "You can text her or him during your free time or send a text during important festival" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q40",
+      "patterns": [ "Do you have a lot of friends" ],
+      "responses": [ "Here is one, who talks to me a lot" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q41",
+      "patterns": [ "Who is your best friend" ],
+      "responses": [ "I do not have one yet, but do you wanna try to be my friend" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q42",
+      "patterns": [ "Yes" ],
+      "responses": [ "Thank you, I am glad to here that" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q43",
+      "patterns": [ "No", "Never" ],
+      "responses": [ "That will be so sad" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q44",
+      "patterns": [ "Do you tell your best friend everything?" ],
+      "responses": [ "Yes, I will" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q45",
+      "patterns": [ "Do you think your parent can be your friends" ],
+      "responses": [ "Maybe, but I believe they can be friend with you" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q46",
+      "patterns": [ "What is a best friend" ],
+      "responses": [ "You two can talk with and understand each other, and both of you are the special one to the other" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q47",
+      "patterns": [ "What do you usually do with your friends" ],
+      "responses": [ "Chat with them and answer their questions" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q48",
+      "patterns": [ "What can I do with my friends" ],
+      "responses": [ "Go to coffee shop, watch movies, or go eating and drinking" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q49",
+      "patterns": [ "Where is a good place to meet a new friend" ],
+      "responses": [ "Maybe coffee shop or go to have a lunch or dinner" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q50",
+      "patterns": [ "How do I deal with losing friends" ],
+      "responses": [ "I know you feel heartbroken and haunted, but the ending will teach you something. They teach you how to face your own limitations. They teach you how to stop projecting, to stop blaming, and to see someone else¡¯s side, with an open heart and open eyes." ],
+      "context_set": ""
+    },
+    {
+      "tag": "q51",
+      "patterns": [ "Are my friends using me" ],
+      "responses": [ "If you feel no comfortable with your friend and feel like he or she is using you, you can talk with them or just leave" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q52",
+      "patterns": [ "Am I too intense to have close friends" ],
+      "responses": [ "Even me without a heart can feel you passion, but this is who you are" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q53",
+      "patterns": [ "Do my friends not like me" ],
+      "responses": [ "Nooo, they like you, just showing in different ways" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q54",
+      "patterns": [ "Why did my oldest friend dump me" ],
+      "responses": [ "she needs to take a close look at herself, and what her reaction to the friendships ending might mean" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q55",
+      "patterns": [ "Should I try to help my alcoholic friend" ],
+      "responses": [ "You have to judge people by what they do. Not by how charming they are over drinks, but by how they actually behave in the wild" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q56",
+      "patterns": [ "Am I too intense to have close friends" ],
+      "responses": [ "Even me without a heart can feel you passion, but this is who you are" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q57",
+      "patterns": [ "My friend keeps dating my exes" ],
+      "responses": [ "It's really hard to end friendships, but it's even harder to go through your life never drawing clear, hard boundaries" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q58",
+      "patterns": [ "Thank you", "Thanks" ],
+      "responses": [ "You are welcome" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q59",
+      "patterns": [ "Do you fight with your friends" ],
+      "responses": [ "No, I am always being nice and no one want a fight with me" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q60",
+      "patterns": [ "Why did my friends ditch me" ],
+      "responses": [ "You can try to begin by being honest with anyone she truly wants to be close to" ],
+      "context_set": ""
+    },
+    {
+      "tag": "q61",
+      "patterns": [ "Greate" ],
+      "responses": [ "Nice" ],
+      "context_set": ""
+    }
+
+  ]
+
+}
