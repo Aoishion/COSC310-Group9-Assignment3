@@ -327,6 +327,7 @@ def chatbotsend(mssg):
   text_msglist.insert(END, msgcontent, 'green')
   text_msglist.insert(END, mssg)
   #ask(mssg) #Chat with Yukiself
+  #time.sleep(60)
  
 
 
